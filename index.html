@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><span class="bold">Ashish</span> Shrestha, Ph.D.</a></h1>
+        <nav class="top-right">
+            <ul>
+                <li><a href="research_projects.html">research & projects</a></li>
+                <li><a href="publications.html">publications</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="bio.html">bio</a></li>
+            </ul>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+                <img src="images/sun.png" alt="Sun Icon" class="toggle-icon">
+                <img src="images/moon.png" alt="Moon Icon" class="toggle-icon">
+            </label>
+        </nav>
+    </header>
+
+    <!--Other links-->
+    <img src="images/my_photo.jpg" alt="Your Photo" class="profile-photo">
+
+    <!-- Icons and hyperlinks -->
+    <div class="icon-container">
+        <a href="https://scholar.google.com/citations?user=32hq4KwAAAAJ&hl=en" target="_blank"><img src="images/gs_light.png" alt="Icon 1"></a>
+        <a href="https://github.com/ashish-shrs" target="_blank"><img src="images/github_light.png" alt="Icon 2"></a>
+        <a href="https://orcid.org/0000-0002-0106-0318" target="_blank"><img src="images/orcid_light.png" alt="Icon 3"></a>
+        <a href="https://www.linkedin.com/in/shres" target="_blank"><img src="images/linkedin_light.png" alt="Icon 4"></a>
+        <a href="https://x.com/ashish_shrs" target="_blank"><img src="images/x_light.png" alt="Icon 5"></a>
+    </div>
+
+    I am a Water and Environmental Engineer with a Ph.D. in Civil, Environmental, and Sustainable Engineering from the Ira A. Fulton 
+    Schools of Engineering at Arizona State University, where my research was supervised by Dr. Margaret Garcia in the School of 
+    Sustainable Engineering and the Built Environment. Currently, I am completing my postdoctoral research under the supervision 
+    of Dr. Christopher M Chini at the Infrastructure Risk and Adaptation Lab, Air Force Institute of Technology. 
+    
+    <p> My work focuses on water and environmental systems, including urban and natural 
+    watershed hydrology, hydrodynamics, water systems modeling, hydroinformatics, sustainability and resilience, systems science (in 
+    environment, water, energy, and human dimensions), climate change, and environmental engineering. I address the challenges of 
+    planning, managing, and adapting water systems in a changing world. I achieve this by advancing hydrological and hydrodynamic 
+    modeling techniques and applying these tools to develop frameworks and resources that support decision-making in water and 
+    environmental systems management and infrastructure planning. I am driven by a commitment to bridge between science, policy, and practice.</p>
+    
+    <p>For any further details, I invite you to reach out to me directly through email <a href="mailto:ashres15@asu.edu" style="color: #6a7697;">(ashres15@asu.edu)</a> </p>
+
+    <section id="selected-publications">
+        <h2>recent updates</h2>
+        <table class="publication-table">
+            <tr>
+                <td><img src="images/prob_icon.png" alt="Publication Image"></td>
+                <td>
+                    <h3>Presented at AGU 2023</h3>
+                    <p><em>Title:</em> Improved hydrological observations and modeling to advance risk-based coastal stormwater infrastructure adaptation</p>
+                    <p><em>Authors:</em> Ashish Shrestha, Christopher M Chini</p>
+                </td>
+            </tr>
+        </table>
+    </section> 
+
+
+    <section id="selected-publications">
+        <h2>selected publications</h2>
+        <table class="publication-table">
+            <tr>
+                <td><img src="images/coastal_flood.png" alt="Publication Image"></td>
+                <td>
+                    <h3><a href="https://iopscience.iop.org/article/10.1088/2634-4505/ad097b/meta" target="_blank" class="custom-link">A review of climate change induced flood impacts and adaptation of coastal infrastructure systems in the United States</a></h3>
+                    <p>Ashish Shrestha, Gregory J Howland, Christopher M Chini</p>
+                    <p><em>Environmental Research: Infrastructure and Sustainability</em>, 2023</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/green_infra.png" alt="Publication Image"></td>
+                <td>
+                    <h3><a href="https://ascelibrary.org/doi/abs/10.1061/JSWBAY.SWENG-471" target="_blank" class="custom-link">Influence of Precipitation Uncertainty and Land Use Change on the Optimal Catchment Scale Configuration of Green Stormwater Infrastructure</a></h3>
+                    <p>Ashish Shrestha, Margaret Garcia</p>
+                    <p><em>Journal of Sustainable Water in the Built Environment</em>, 2023</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ashish Shrestha. All rights reserved. | Last updated: March 1, 2024</p>
+        <p>Icons Attribution:</a> All icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const isDarkMode = localStorage.getItem('darkMode') === 'true';
+            document.body.classList.toggle('dark-mode', isDarkMode);
+            darkModeToggle.checked = isDarkMode;
+
+            darkModeToggle.addEventListener('change', () => {
+                const isDarkMode = darkModeToggle.checked;
+                document.body.classList.toggle('dark-mode', isDarkMode);
+                localStorage.setItem('darkMode', isDarkMode);
+            });
+        });
+    </script>
+</body>
+</html>

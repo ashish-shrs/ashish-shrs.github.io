@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><span class="bold">Ashish</span> Shrestha, Ph.D.</a></h1>
+        <nav class="top-right">
+            <ul>
+                <li><a href="research_projects.html">research & projects</a></li>
+                <li><a href="publications.html">publications</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="bio.html">bio</a></li>
+            </ul>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider"></span>
+                <img src="images/sun.png" alt="Sun Icon" class="toggle-icon">
+                <img src="images/moon.png" alt="Moon Icon" class="toggle-icon">
+            </label>
+        </nav>
+    </header>
+
+    <img src="images/my_photo.jpg" alt="Your Photo" class="profile-photo">
+
+    <div class="icon-container">
+        <a href="https://scholar.google.com/citations?user=32hq4KwAAAAJ&hl=en" target="_blank"><img src="images/gs_light.png" alt="Icon 1"></a>
+        <a href="https://github.com/ashish-shrs" target="_blank"><img src="images/github_light.png" alt="Icon 2"></a>
+        <a href="https://orcid.org/0000-0002-0106-0318" target="_blank"><img src="images/orcid_light.png" alt="Icon 3"></a>
+        <a href="https://www.linkedin.com/in/shres" target="_blank"><img src="images/linkedin_light.png" alt="Icon 4"></a>
+        <a href="https://x.com/ashish_shrs" target="_blank"><img src="images/x_light.png" alt="Icon 5"></a>
+    </div>
+
+    <section id="new-section">
+        <h2 style="font-size: 1.1em;">What are the key knowledge gaps in addressing infrastructure adaptation of the interdependent coastal
+            infrastructure systems? </h2>
+        <div style="text-align: center;">
+            <img src="images/research3.jpg" alt="Description of Image" style="max-width: 50%; height: auto;">
+            <figcaption style="font-size: 0.8em;">Common themes surrounding infrastructure impact and adaptation focus across the coastal infrastructure 
+                systems of U.S. in the existing literature. The left (horizontal) bar plot represents the total size of each set, the bottom plot 
+                represents every possible interaction (multiple joint or individual) and the top (vertical) bar plot represents their occurrence. Figure was
+                created in R using <a href="https://academic.oup.com/bioinformatics/article/33/18/2938/3884387?login=false" 
+                target="_blank" class="custom-link">'UpSetR' (Conway et al 2017)</a> R package.
+                For details on the literature review and metadata please see <a href="https://iopscience.iop.org/article/10.1088/2634-4505/ad097b/meta" 
+                target="_blank" class="custom-link">(Shrestha, Howland and Chini, 2023)</a>
+            </figcaption>
+        </div>
+        <p>
+            Adapting interdependent coastal infrastructure systems is critical for enhancing systems resilience against climate change, 
+            potentially avoiding billions $ in damages from climate change induced sea level rise and extreme events. Studies by <a href=
+            "https://egusphere.copernicus.org/preprints/2022/egusphere-2022-198/" target="_blank" class="custom-link">Depsky et al. (2022)</a> and <a href=
+            "https://nhess.copernicus.org/articles/20/1025/2020/" target="_blank" class="custom-link">Tiggeloven et al. (2020)</a> 
+            forecast significant financial impacts 
+            from sea level rise by 2100, emphasizing the economic benefits of infrastructure adaptation. The <a href=
+            "https://cfpub.epa.gov/si/si_public_record_Report.cfm?Lab=OAP&dirEntryId=335095" target="_blank" class="custom-link">U.S. EPA (2017)</a> and <a href=
+            "https://nca2018.globalchange.gov/chapter/8/" target="_blank" class="custom-link">Fleming et al. (2018)</a> 
+            further suggest that effective adaptation 
+            could save over $2.5 trillion annually in the U.S. alone. Implementing adaptation strategies typically involves
+            different stages of progress - from awareness, assessment, planning, implementation, monitoring, to evaluation <a href=
+            "https://www.ipcc.ch/report/ar6/wg2/" target="_blank" class="custom-link">(Pörtner et al. 2022)</a>, 
+            yet many efforts are still in the planning phase. <a href="https://iopscience.iop.org/article/10.1088/2634-4505/ad097b/meta" 
+            target="_blank" class="custom-link">Shrestha, Howland and Chini (2023)</a> suggest that the adaptation studies must encompass all time scales, from 
+            short to long term, that matches with infrastructure decision-making and planning time horizon rather than focusing solely on long-term 
+            climate projections. The review further indicates that there are a limited number of studies that consider multiple infrastructure systems 
+            and there is need for a more integrated approach to address the interconnected impacts of climate adaptation across coastal infrastructure 
+            systems. 
+        </p>
+    </section>
+    <br>
+    <section id="new-section">
+        <h2 style="font-size: 1.1em;">How the uncertainty in precipitation estimates and land use change influence the performance and optimal 
+            design of catchment scale green stormwater infrastructure? </h2>
+        <div style="text-align: center;">
+            <img src="images/research1.png" alt="Description of Image" style="max-width: 70%; height: auto;">
+            <figcaption style="font-size: 0.8em;">Comparison across 20 most populated U.S. cities showing how (a) urban imperviousness has changed
+                from 2001 to 2019 (defined as change in urban impervious percent normalized by city area) and (b) uncertainty in design precipitation
+                estimate from NOAA Atlas 14 for 5-yr return period 1-hr duration rainfall (defined as difference between upper and lower bound of confidence interval
+                with respect to best fit estimates). Figures were created in ArcGIS Pro. For details on the data please see <a href="https://ascelibrary.org/doi/abs/10.1061/JSWBAY.SWENG-471" target="_blank" class="custom-link">(Shrestha and Garcia, 2023)</a>
+            </figcaption>
+        </div>
+        <p>In the figure above, our study area in Phoenix, Arizona, is represented as experiencing a higher range of change in urban imperviousness, 
+            indicating substantial densification and sprawl, but it also shows a moderate range of uncerainty in precipitation estimates. <a href="https://ascelibrary.org/doi/abs/10.1061/JSWBAY.SWENG-471" target="_blank" class="custom-link">
+                Shrestha and Garcia (2023)</a> evaluated the influence of such uncertainties by integrating the U.S. EPA SWMM model for urban catchments in Phoenix with a non-dominated sorting genetic algorithm (NSGA-II). 
+                The optimal configuration of green stormwater infrastructure (GSI), defined as the ideal selection of GSI types (e.g., bioretentions 
+                or green roofs), optimal distribution of GSI amounts throughout the urban catchment where it is most needed, and optimal sizing of GSI 
+                at the least capital cost investments, was determined. One of the results showed that uncertainties in precipitation in an urban 
+                environment have a higher impact than changes in urban imperviousness, although Phoenix has a relatively higher change in urban 
+                imperviousness but moderate precipitation uncertainty. Despite the multiple benefits, the adoption of green infrastructure 
+                at the catchment or city scale is limited. Understanding and quantifying such uncertainties and incorporating them into decision-making 
+                is important to advance large-scale adoption of green infrastructure.
+        </p>
+    </section>
+    <br>
+
+    <section id="new-section">
+        <h2 style="font-size: 1.1em;">What are the implications of stormwater infrastructure data gaps on hydrologic and/or hydraulic model? How can we address such data gaps?</h2>
+        <div style="text-align: center;">
+            <img src="images/datapaper1.png" alt="Description of Image" style="max-width: 70%; height: auto;">
+            <figcaption style="font-size: 0.8em;">(a) A simplified schematic illustrating the method for sampling effects of missing data through Monte Carlo Sampling. This includes an algorithm designed to fill in missing 
+                data (specifically: attribute values) by extracting missing information from available upstream/downstream features or by utilizing engineering design standards. (b) Such instances of missing data 
+                can occur anywhere within an urbanized catchment, and the algorithm is capable of addressing these gaps. (c) Furthermore, this approach can also be applied to natural watersheds when working with river networks or reaches.
+                Figures of urban and natural watershed were created in ArcGIS Pro using ArcGIS Scene. For details on the methods please see <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022169422000737" 
+                target="_blank" class="custom-link">(Shrestha, Mascaro and Garcia, 2022)</a>. The repository for the algorithm to fill missing data can be found in this: 
+                <a href="https://github.com/ashish-shrs/filling_missing_data_for_swmm" target="_blank" class="custom-link">(1) GitHub repository</a> or 
+                <a href="https://doi.org/10.4211/hs.eaf9a871fd254a759a4f381be4f0a325" target="_blank" class="custom-link">(2) Hydroshare repository</a>.
+            </figcaption>
+        </div>
+        <p>Infrastructure data components in hydrologic-hydraulic model includes all components of built stormwater systems, such as catch basins, manholes, conduits, detention and storage basins, drywells and outfalls. 
+            Unfortunately, these datasets are often incomplete or of poor quality and data collection efforts are resource intensive. Spatial data quality as defined by accuracy, current-ness, completeness, consistency 
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/0306457394900205" target="_blank" class="custom-link"> (Fox et al., 1994)</a>, 
+            has been widely recognized to be of significant value in research and practice. This is especially true when electronic databases are produced, integrated and updated by multiple private 
+            and public sectors, and the reliance on secondary data sources increases for decision support tools. As the effect of data completeness on urban flood modeling has not been fully understood, 
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022169422000737" target="_blank" class="custom-link">Shrestha, Mascaro and Garcia (2022)</a> aimed 
+            to understand the effect of stormwater infrastructure data completeness on urban flood modeling. Data completeness is conceptualized into feature completeness 
+            (which refers to the known presence and location of all stormwater infrastructure components) and attribute-value completeness (which refers to known attributes 
+            and values of each component). A Monte Carlo sampling algorithm was developed to assess how missing data and its location affect model 
+            performance, demonstrating the effectiveness of this approach in filling missing attribute data.
+
+
+        </p>
+    </section>
+    <br>
+
+
+    <section id="new-section">
+        <h2 style="font-size: 1.1em;">How does the spatial resolution of the 
+            terrain data (or model resolution) interact with infrastructure data gaps (or data completeness) to impact the model performance?</h2>
+        <div style="text-align: center;">
+            <img src="images/datapaper2.png" alt="Description of Image" style="max-width: 70%; height: auto;">
+            <figcaption style="font-size: 0.8em;">(a) A sample of 2D overland flow components consisting of 2D grids. The model's resolution determines the size of the grid cells 
+                and the spatial heterogeneity of surface properties, such as elevations and slopes, across the grid cells. (b) Results 
+                from sampling four versions of SWMM-based 1D-2D models, highlighting the significance of data completeness and model 
+                resolution in terms of modeling hydrologic and hydraulic processes. The figure of the 2D grids representation was created in ArcGIS 
+                Pro using ArcGIS Scene.
+                For details on the methods please see <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022169422000737" target="_blank" class="custom-link">(Shrestha, Mascaro and Garcia, 2022)</a>
+            </figcaption>
+        </div>
+        <p> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022169422000737" target="_blank" class="custom-link">Shrestha, Mascaro and Garcia (2022)</a> examined the
+            influence of data completeness and model resolution on urban flood modeling by selectively sampling four SWMM-based 1D-2D models. 
+            We examined the effects of varying levels of feature data completeness (100% or 50% presence) and model resolution (using 0.3 m DEM and 9.7m DEM) on model performance. It's noted 
+            that the most commonly available DEM resolution from the USGS is approximately 1/3 arc-second (~10 m). The study found that models with higher resolution more accurately simulated 
+            the highest flood depths. In contrast, the highest flood extent and volume were simulated by the low-resolution models. This finding underscores the critical role of both data 
+            completeness and model resolution in generating accurate estimates of flood depth, extent, and volume. Such precision is crucial in urban flood estimation for assessing pedestrian 
+            and vehicle flood hazards, where accurate information on flood extent, volume, and depth is essential for effective flood risk management and planning.
+
+
+        </p>
+    </section>
+    <br>
+
+    <section id="new-section">
+        <h2 style="font-size: 1.1em;">How do feedbacks from social and environmental changes influence decision-making among multiple actors (i.e., between the U.S. and Canada) in reservoir operations under the Columbia River Treaty?</h2>
+        <div style="text-align: center;">
+            <img src="images/shmodel.png" alt="Description of Image" style="max-width: 100%; height: auto;">
+            <figcaption style="font-size: 0.8em;">Simplified system dynamics illustrating the hydrological system of the Columbia River, 
+                as represented by a lumped hydrological model, is influenced by environmental variables (e.g., regulations on fish spills), 
+                economic variables (e.g., benefits from flood control and hydropower provided by dams), and social variables 
+                (e.g., cooperation dynamics defined by social preferences). 
+                For details on the system dynamics model please see <a href="https://hess.copernicus.org/articles/26/4893/2022/hess-26-4893-2022.html" target="_blank" class="custom-link">(Shrestha et. al, 2022)</a>
+            </figcaption>
+        </div>
+        <p>In coupled human-water systems, human societies and water systems influence each other in complex ways. This interaction becomes particularly 
+            complex when multiple actors manage water resources, such as in transboundary river basins, involving dynamic operations of reservoirs.
+            In such systems, hydrological, social, environmental, and economic variables create feedback loops, leading to a dynamic system response.
+            Capturing this behavior requires more than a hydrological model or analytical process alone. It necessitates a comprehensive understanding 
+            of the system's processes, integration of datasets from various disciplines, and mathematical formulation of these processes through 
+            collaborative effort. <a href="https://hess.copernicus.org/articles/26/4893/2022/hess-26-4893-2022.html" target="_blank" class="custom-link">
+                Shrestha et. al (2022)</a> applied the theory of socio-hydrology to build a system dynamics model consisting of lumped hydrological model
+                in the Columbia River watershed. This model was used to examine the dynamics of cooperation between the U.S. and Canada under the Columbia 
+                River Treaty, recognized as one of the most successful transboundary river treaties. The study evaluated how the robustness of this cooperative 
+                agreement might be affected by shift in equitable benefit sharing due to environmental change and regulation, and change
+                in social preferences. The study found that institutional capacity plays an important role in long-term cooperation and that change in 
+                social preferences can impact cooperation dynamics. Applying such modeling framework, which integrates behavioral economics, 
+                can provide key insights to inform reservoir operation and water management policies.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ashish Shrestha. All rights reserved. | Last updated: March 1, 2024</p>
+        <p>Icons Attribution:</a> All icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const isDarkMode = localStorage.getItem('darkMode') === 'true';
+            document.body.classList.toggle('dark-mode', isDarkMode);
+            darkModeToggle.checked = isDarkMode;
+
+            darkModeToggle.addEventListener('change', () => {
+                const isDarkMode = darkModeToggle.checked;
+                document.body.classList.toggle('dark-mode', isDarkMode);
+                localStorage.setItem('darkMode', isDarkMode);
+            });
+        });
+    </script>
+</body>
+</html>
