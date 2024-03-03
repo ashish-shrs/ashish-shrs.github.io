@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto Flex', sans-serif;
     font-size: 14pt;
-    font-weight: 0;
+    font-weight: 250;
     margin-left: 190px;
     margin-right: 190px;
     line-height: 1.3; 
@@ -12,7 +12,7 @@ body {
 
 
 .regular {
-    font-weight: normal;
+    font-weight: 150;
 }
 
 /* Header */
@@ -33,7 +33,7 @@ header h1 a:active {
 
 /* Only making this text bold */
 header h1 span.bold {
-    font-weight: bold;
+    font-weight: 550;
 }
 
 header {
@@ -329,6 +329,7 @@ li p {
 .publication-table h3 {
     margin-top: 0;
     margin-bottom: 5px;
+    font-weight: 550;
 }
 
 .publication-table p em {
@@ -344,10 +345,31 @@ li p {
 
 #selected-publications h2 {
     font-family: 'Roboto Flex', sans-serif;
-    font-weight: 10;
+    font-weight: 100;
     font-size: 25pt;
     color: rgb(106, 118, 151);
 }
+
+.pubs h2{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 550;
+}
+
+.pubs h3{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 550;
+}
+
+.res h2{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 550;
+}
+
+.skills h3{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 550;
+}
+
 
 /* Light and dark view */
 .toggle-icon {
@@ -425,7 +447,8 @@ footer {
 }
 
 .resume-paper header h1 {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight:550;
 }
 
 .resume-paper header p {
@@ -460,6 +483,7 @@ footer {
 .resume-paper .education-info h3,
 .resume-paper .work-info h3 {
     font-size: 18px;
+    font-weight: 550;
 }
 
 .resume-paper .education-info p,
@@ -476,6 +500,17 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #888;
+}
+
+.section-education h2,
+.section-work h2,
+.section-awards h2,
+.section-skills h2{
+    font-weight: 550;
+}
+
+.skills-item ul li strong {
+    font-weight: 550;
 }
 
 .horizontal-list {
